@@ -1,0 +1,43 @@
+STANDARD OPERATING PROCEDURE
+SOP-22: Feed Pump Startup, Shutdown and Isolation (P-101A/B)
+Revision: 4  |  Effective Date: 2024-01-10  |  Owner: Process Engineering
+
+1. PURPOSE
+This procedure covers safe startup, shutdown, and isolation of feed pumps P-101A
+and P-101B in Unit 3, Process Area B.
+
+2. SCOPE
+Applies to all operations and maintenance personnel authorised to operate rotating
+equipment in Process Area B.
+
+3. PRE-STARTUP CHECKS
+3.1 Confirm suction valve V-101 is fully open and discharge valve V-102 is closed.
+3.2 Verify lubrication oil level in bearing housing is between MIN and MAX marks.
+3.3 Confirm vibration monitoring system is active and trip setpoint is set to
+    8.5 mm/s RMS (outboard bearing) per equipment datasheet EDS-P101.
+3.4 Check coupling guard is installed and secured.
+
+4. STARTUP SEQUENCE
+4.1 Start pump motor from control room (DCS tag P101A-MTR).
+4.2 Slowly open discharge valve V-102 over 30 seconds while monitoring discharge
+    pressure. Target discharge pressure: 4.2 - 4.6 barg.
+4.3 Monitor vibration and bearing temperature for 10 minutes post-start.
+
+5. ISOLATION / CHANGEOVER TO STANDBY UNIT
+5.1 On trip or alarm condition, start standby pump immediately using step 4.
+5.2 Close discharge valve on tripped pump, then suction valve.
+5.3 Tag out and log the isolation in the shift handover register.
+5.4 Raise a work order for inspection before the isolated pump is returned to
+    the available pool.
+
+6. RETURN TO SERVICE AFTER MAINTENANCE
+6.1 Any pump that has undergone coupling or bearing work must have laser shaft
+    alignment verified against OEM tolerance (0.05 mm angular, 0.08 mm parallel)
+    before startup.
+6.2 [Pending update per WO-4521 recommendation - second technician sign-off on
+    alignment verification, awaiting Process Engineering approval as of last review.]
+
+7. RELATED DOCUMENTS
+- Equipment Datasheet EDS-P101
+- Inspection Report IR-2025-089
+- OEM Manual: Series 3600 Centrifugal Pump, Section 7 (Alignment)

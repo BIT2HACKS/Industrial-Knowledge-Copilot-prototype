@@ -1,0 +1,33 @@
+WORK ORDER #WO-4521
+Equipment Tag: P-101A (Feed Pump, Centrifugal)
+Location: Unit 3, Process Area B
+Date Raised: 2025-03-14
+Raised By: Anil Kumar, Shift Supervisor
+Priority: High
+
+DESCRIPTION OF ISSUE
+Feed pump P-101A tripped on high vibration alarm during routine operation. Vibration
+reading at bearing housing (outboard) recorded at 9.8 mm/s RMS, exceeding trip
+setpoint of 8.5 mm/s. Pump was isolated and standby unit P-101B started per SOP-22.
+
+MAINTENANCE ACTIONS TAKEN
+1. Bearing housing opened for inspection. Outboard bearing (SKF 6310) showed signs
+   of spalling on the outer race.
+2. Shaft alignment checked with laser alignment tool - found 0.15 mm angular
+   misalignment against coupling, above the 0.05 mm tolerance in the OEM manual.
+3. Bearing replaced. Shaft realigned to within tolerance.
+4. Vibration reading after repair: 2.1 mm/s RMS at same measurement point.
+
+ROOT CAUSE
+Coupling misalignment during last major overhaul (Work Order WO-3980, October 2024)
+was not corrected within OEM tolerance, leading to accelerated bearing wear over
+approximately 5 months of operation.
+
+RECOMMENDATION
+Update SOP-22 alignment checklist to require laser alignment verification sign-off
+by a second technician before pump is returned to service after any coupling work.
+Cross-reference: Inspection Report IR-2025-089 recommends the same control for
+all Unit 3 rotating equipment.
+
+Closed By: Priya Menon, Maintenance Engineer
+Closed Date: 2025-03-16

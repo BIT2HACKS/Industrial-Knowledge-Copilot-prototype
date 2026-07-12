@@ -1,0 +1,35 @@
+INSPECTION REPORT: IR-2025-089
+Scope: Unit 3 Rotating Equipment - Quarterly Vibration & Alignment Audit
+Inspector: Rakesh Iyer, Reliability Engineer
+Date: 2025-02-02
+
+EQUIPMENT COVERED
+P-101A, P-101B (Feed Pumps), P-104 (Booster Pump), C-201 (Compressor)
+
+FINDINGS
+1. P-101A: Vibration trending upward over last 3 readings (5.2 -> 6.8 -> 7.9 mm/s
+   RMS). Recommend inspection before next scheduled shutdown. [Note: this pump
+   subsequently tripped - see Work Order WO-4521 for outcome.]
+2. P-101B: Within normal operating range, no action required.
+3. P-104: Minor coupling misalignment detected (0.09 mm parallel), within
+   acceptable range but approaching tolerance limit of 0.08 mm... flagged for
+   monitoring at next quarterly check. [Correction: 0.09mm exceeds the 0.08mm
+   parallel tolerance - engineering review requested.]
+4. C-201: No anomalies detected.
+
+SYSTEMIC OBSERVATION
+Across the last four quarterly audits, 3 of 6 rotating equipment alignment
+deviations traced back to insufficient torque sequencing during coupling
+reassembly after maintenance. This is not currently called out as a discrete
+step in the relevant SOPs.
+
+RECOMMENDATIONS
+1. Add explicit torque sequencing step (star pattern, 3 passes) to all coupling
+   reassembly procedures.
+2. Require laser alignment verification with sign-off by a second technician
+   before any pump with coupling work is returned to service.
+3. Reduce quarterly audit interval to monthly for pumps with prior alignment
+   findings until two consecutive clean readings are recorded.
+
+STATUS: Recommendations 1 and 2 pending Process Engineering approval and
+incorporation into SOP-22 (see Section 6.2, marked pending as of last review).

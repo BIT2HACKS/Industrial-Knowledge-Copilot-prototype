@@ -1,0 +1,36 @@
+SAFETY & COMPLIANCE PROCEDURE: SCP-11
+Rotating Equipment Isolation and Permit-to-Work Requirements
+Applicable Standard: OISD-STD-105 (Isolation of Process Equipment)
+Revision: 2 | Effective Date: 2023-06-01
+
+1. REGULATORY BASIS
+This procedure implements the isolation requirements of OISD-STD-105 Section 4.3
+and the Factory Act provisions on machinery guarding (Section 21-24) for all
+rotating equipment in Process Area B.
+
+2. PERMIT-TO-WORK REQUIREMENTS
+2.1 Any maintenance work on rotating equipment requiring coupling removal,
+    bearing access, or guard removal requires a Permit-to-Work (PTW) Type B
+    (Mechanical Isolation) prior to commencing work.
+2.2 PTW must be signed by the Area Shift Supervisor and the Maintenance
+    Engineer performing the work.
+2.3 Equipment must be electrically isolated and mechanically locked out per
+    LOTO-04 before the PTW is issued.
+
+3. COMPLIANCE EVIDENCE FOR AUDIT
+3.1 Completed PTW forms must be retained for a minimum of 3 years and linked
+    to the corresponding Work Order in the maintenance record system.
+3.2 Any deviation from OEM alignment tolerance identified during maintenance
+    (see equipment-specific SOPs, e.g. SOP-22 Section 6.1) must be logged as
+    a non-conformance and tracked to closure.
+3.3 Quarterly internal audit (see Inspection Report series, e.g. IR-2025-089)
+    must confirm PTW compliance rate of 100% for Type B permits.
+
+4. ESCALATION
+Any rotating equipment with two or more alignment-related non-conformances
+within a 12-month period must be escalated to the Unit Reliability Review
+Board per OISD-STD-105 Section 6.
+
+5. REVISION NOTES
+Rev 2 clarified that alignment deviations are treated as reportable
+non-conformances, following recurring findings on Unit 3 feed pumps.

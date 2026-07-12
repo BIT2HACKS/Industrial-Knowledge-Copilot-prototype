@@ -1,0 +1,22 @@
+P&ID EQUIPMENT SUMMARY (extracted from drawing PID-UNIT3-B-014, Rev 7)
+Drawing Title: Unit 3, Process Area B - Feed Pump System
+
+EQUIPMENT LIST
+Tag: P-101A | Type: Centrifugal Pump | Service: Feed Pump (Duty) | Design Flow: 250 m3/h
+Tag: P-101B | Type: Centrifugal Pump | Service: Feed Pump (Standby) | Design Flow: 250 m3/h
+Tag: V-101  | Type: Gate Valve | Service: Suction Isolation (P-101A)
+Tag: V-102  | Type: Gate Valve | Service: Discharge Isolation (P-101A)
+Tag: V-103  | Type: Gate Valve | Service: Suction Isolation (P-101B)
+Tag: V-104  | Type: Gate Valve | Service: Discharge Isolation (P-101B)
+Tag: PI-101 | Type: Pressure Indicator | Range: 0-10 barg | Location: P-101A/B discharge header
+Tag: VT-101 | Type: Vibration Transmitter | Location: P-101A outboard bearing | Trip: 8.5 mm/s RMS
+Tag: VT-102 | Type: Vibration Transmitter | Location: P-101B outboard bearing | Trip: 8.5 mm/s RMS
+
+LINE LIST NOTES
+Line 3-B-101-6": Suction line from feed tank T-100 to P-101A/B suction manifold.
+Line 3-B-102-4": Discharge line from P-101A/B to downstream reactor feed header.
+
+REVISION HISTORY
+Rev 6 -> Rev 7 (2024-11): Added VT-101/VT-102 vibration transmitters per
+Reliability Engineering request following recurring bearing failures on
+P-101A/B. Cross-reference Inspection Report IR-2025-089.
